@@ -17,6 +17,9 @@ defined('_JEXEC') or die('Direct Access to ' . basename(__FILE__) . ' is not all
  * www.virtuemart.net
  */
 
+/*
+ * Change by Trong Thang(trangtrongthang1207@gmail.com)
+ */
 
 if (!class_exists('VmConfig'))
     require(JPATH_ADMINISTRATOR . DS . 'components' . DS . 'com_virtuemart' . DS . 'helpers' . DS . 'config.php');
@@ -40,7 +43,7 @@ $Product_group = $params->get('product_group', 'featured'); // Display a footerT
 if ($Product_group == 'category_id') {
     $category_id = 0;
 }
-//Trong Thang
+//Get
 $filterProductId = $params->get('product_ids', 0); // Display a footerTextproduct_ids
 
 $mainframe = Jfactory::getApplication();

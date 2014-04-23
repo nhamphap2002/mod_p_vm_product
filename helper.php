@@ -88,7 +88,6 @@ class mod_p_vm_product {
                             <?php
                             // Display the quantity box
                             ?>
-                                                                <!-- <label for="quantity<?php echo $product->virtuemart_product_id; ?>" class="quantity_box"><?php echo JText::_('COM_VIRTUEMART_CART_QUANTITY'); ?>: </label> -->
                             <span class="quantity-box">
                                 <input type="text" class="quantity-input" name="quantity[]" value="1"/>
                             </span>
