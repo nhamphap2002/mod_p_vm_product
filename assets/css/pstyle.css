@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 28, 2014, 10:14:07 AM
+    Author     : Tran Trong Thang
+    Email      : trantrongthang1207@gmai.com
+*/
+@import url(../fonts/font-awesome.css);
+.pvmproduct .vmproduct{
+    padding: 0;   
+}
+.pvmproduct li{
+    list-style: none;
+}
+.pvmproduct .pimageproduct{
+    float: left;
+    width: 40px;
+}
+.pvmproduct .pimageproduct img{
+    max-width: 100%;
+}
+.pvmproduct .pproductname a{
+    color: #4B75AF;
+    font-size: 11px;
+    font-weight: bold;
+}
+.pvmproduct .pinfoproduct{
+    float: left;
+    margin: 0 0 0 10px;
+    text-align: left;
+    width: 76%;
+}
+.pvmproduct .pprice > div{
+    float: right;
+}
+.pvmproduct .pprice .PricebasePriceWithTax {
+    margin: 0 5px 0 0;
+    text-decoration: line-through;
+}
+.pvmproduct .pprice .PricesalesPrice{
+    color: red;    
+}
+.pvmproduct .vmproduct .prow {
+    border-bottom: 1px solid #CCCCCC;
+    margin: 0 0 5px;
+    overflow: hidden;
+    padding: 0 0 5px;
+}
+.pvmproduct .paddcart {
+    clear: both;
+    overflow: hidden;
+}
+.pvmproduct span.addtocart-button{
+    width: 100px;    
+}
+.pvmproduct span.quantity-controls{
+    line-height: 18px;
+    padding: 0;  
+}
+.pvmproduct span.quantity-controls input.quantity-controls{
+    margin: 0;
+}
+.pvmproduct .paddcart span.addtocart-button input.addtocart-button,
+.pvmproduct .paddcart span.addtocart-button input.notify-button{
+    float: right;
+    height: 30px;
+    margin: 3px 0 0;
+    width: 95px;
+}
+.pvmproduct span.addtocart-button:before{
+    /*content: 'Add to cart';*/
+}
+/*.pvmproduct span.addtocart-button{
+    width:auto;
+    background:#f2f2f2 top repeat-x;
+    border:solid #333 1px;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    font-size:14px;
+    cursor:pointer;
+    height:34px;
+    text-align:center;
+    letter-spacing:1px;
+    padding:4px 5px;
+    color:#333;
+    margin:10px 0px 0px 0px;   
+}*/
+.pvmproduct span.addtocart-button input.addtocart-button-disabled {
+    height: 30px;
+    margin: 3px 0 0;
+    padding: 0;
+    /*text-indent: -99999px;*/
+    width: 95px;
+    /*display: none;*/
+}
